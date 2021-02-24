@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Reggae One', cursive;
+}
+
+/* Contenitore contatore */
+.page {
+    margin: 40px;
+    background-image: linear-gradient(#C2E6F4, #4190af);
+    border: none;
+    border-radius: 20%;
+    opacity: 0.7;
+    width: 300px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 15px 15px whitesmoke;
+}
+
+.page:hover {
+    opacity: 1;
+}
+
+/* Contatore */
+.page p {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 9px rgb(97, 97, 97);
+}
+
+h1 {
+    font-size: 35px;   
+}
+
+/* Bottoni azzera e incremento/decremento */
+#button-azzera {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons button {
+    width: 60px;
+    height: 40px;
+    margin: 20px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(97, 97, 97);
+    font-weight: bold;
+    font-family: 'Reggae One', cursive;
+}
+
+#buttons button:hover {
+    background-color: rgb(223, 221, 221)
+}
+
+#buttons button:active {
+    background-color: #c7eaf8;
+    box-shadow: 0 5px rgb(102, 102, 102);
+    transform: translateY(4px);
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Numero incremento */
+#incremento {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center; 
+    border: none; 
+    border-radius: 50%;
+    box-shadow: 0 9px rgb(97, 97, 97);
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Reggae One', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Tablet Styles */ 
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+    .page {
+        width: 500px;
+    }
+
+    .page p {
+        font-size: 40px;
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #buttons button {
+        width: 80px;
+        height: 50px;
+        margin: 20px;
+        font-size: 20px;  
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #incremento {
+        width: 150px;
+        height: 35px;
+        font-size: 25px;
+        text-align: center;   
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+        margin: 80px 250px 80px 250px;
+        width: 800px;
+    }
+    
+    .page p {
+        font-size: 50px;
+        background-color: white;
+        width: 350px;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 70px;
+    }
+
+    #buttons button {
+        width: 100px;
+        height: 60px;
+        margin: 40px;
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    #incremento {
+        width: 200px;
+        height: 40px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
