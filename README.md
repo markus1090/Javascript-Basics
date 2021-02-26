@@ -1,5 +1,16 @@
 <img src="./Marco-Borea_Javascript-basics/assets/Images/imgCalc.png">
 
+<details open="open">
+  <summary>Contenuti</summary>
+  <ol>
+    <li><a href="#descrizione">Descrizione</a></li>
+    <li><a href="#come-funziona">Come funziona</a></li>
+    <li><a href="#css">CSS</a></li>
+    <li><a href="#codice-javascript">Codice Javascript</a></li>
+    <li><a href="#contatti">Contatti</a></li>
+  </ol>
+</details>
+
 ## Descrizione
 Contatore che permette di incrementare o decrementare un numero visualizzato in un display, per uno, o per un numero a scelta dell'utente.
 
@@ -12,7 +23,12 @@ Gli elementi con cui possiamo intergire sono:
 * Il pulsante decrementa (-)
 * Un input numero, con cui verrà incrementata o decrementata la cifra del display
 
-## Codice
+## CSS
+Il codice CSS è stato impostato per rendere la pagina completamente responsive con l'utilizzo delle apposite media queries. A seguire l'esempio responsive per smartphone:
+
+<img src="./Marco-Borea_Javascript-basics/assets/Images/imgCalcSmall.png">
+
+## Codice Javascript
 Il display e i pulsanti sono stati implementati con javascript:
 
 
